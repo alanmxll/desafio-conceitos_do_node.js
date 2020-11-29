@@ -4,6 +4,12 @@ Nesse desafio, você deve criar uma aplicação para treinar o que você aprende
 
 Essa será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção<br> dos repositórios, e além disso permitir que os repositórios possam receber "likes".
 
+## Template da aplicação
+
+Para te ajudar nesse desafio, criamos para você um modelo que você deve utilizar como um template do Github.
+
+O template está disponível na seguinte url: <b>[Acessar Template](https://github.com/rocketseat-education/gostack-template-conceitos-nodejs)</b>
+
 ## Rotas da aplicação
 
 `POST /repositories:` A rota deve receber title, url e techs dentro do corpo da requisição, sendo a URL o link para o github desse repositório.<br>Ao cadastrar um novo projeto, ele deve ser armazenado dentro de um objeto no seguinte formato:
